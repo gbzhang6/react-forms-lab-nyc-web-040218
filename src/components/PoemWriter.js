@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 
 function validatePoem(text) {
   const poemLines = text.split("\n")
@@ -19,7 +19,7 @@ function validatePoem(text) {
   }
 }
 
-class PoemWriter extends React.Component {
+class PoemWriter extends Component {
   constructor() {
     super();
 
